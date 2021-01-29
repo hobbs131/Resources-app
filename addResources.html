@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+	    <a href="resources.html" class="pure-menu-link pure-menu-heading">Development Resources</a>
+	    <ul class="pure-menu-list">
+	        <li class="pure-menu-item">
+	            <a href="addResources.html" class="pure-menu-link">Add Resources</a>
+	        </li>
+	    </ul>
+	</div>
+    <form class="pure-form pure-form-stacked">
+    <fieldset>
+        <legend>Resource Entry Form</legend>
+        <label for="resource">Resource</label>
+        <input type="text" id="resource" placeholder="Resource Name" />
+        <label for="description">Description</label>
+        <input type="text" id="description" placeholder="Description" />
+        <label for="url">URL</label>
+        <input type="url" id="url" placeholder="URL" />
+        <button type="submit" class="pure-button pure-button-primary">Submit</button>
+    </fieldset>
+</form>
+	
+</body>
+</html>
